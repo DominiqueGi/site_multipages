@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+    <title>Multimédia</title>
     <link rel="stylesheet" href="css/style.css">
     <!--Choisir une police google font et ajouter ici-->
     <link href=<link href="https://fonts.googleapis.com/css2?family=Blaka&family=Caveat+Brush&family=Cormorant+Garamond:ital,wght@1,300&family=Kufam:ital,
@@ -60,9 +60,44 @@
         <a href="animation.html">Animation</a>
     </nav>
     <main>
-        <aside></aside>
-        <section></section>
-    </main>
+        <h2>Multimédia</h2>
+        <section class="VideoFond">
+            <!--h3+div.videoTexte>video>source-->
+                        <h3>Vidéo en fond</h3>
+                        <div class="videoTexte">
+                            <video autoplay loop>
+                                <!--Les attributs "autoplay" => lecture automatique et "loop" => lecture en boucle-->
+                                <source src="video/videoBackground.webm" type="video/webm">
+                                <source src="video/videoBackground.mp4" type="video/mp4">
+                            </video>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dolores tempore quisquam aut at reiciendis commodi maxime laboriosam repudiandae, laudantium adipisci iste. Labore nesciunt eos accusamus dolores error doloribus qui!</p>
+                        </div>
+                        </section>
+                        <section>
+                            <h3>Vidéo</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/cFH5JgyZK1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </section>
+                        <section class="audio">
+                            <h3>Audio</h3>
+                            <h4>Format MP3</h4>
+                            <br>
+                            <audio src="audio/son.mp3" controls></audio> 
+
+                            <h4>Format Ogg</h4>
+                            <br>
+                            <audio src="audio/son.ogg" controls></audio>
+
+                        </section>
+                        <section>
+                            <h3>Google Map</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.990760984002!2d2.0684907338663097!3d48.89651323974593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68849544b1247%3A0xc81e9d413937dd77!2sRue%20des%20Lavandi%C3%A8res%2C%2078100%20Saint-Germain-en-Laye!5e0!3m2!1sfr!2sfr!4v1655375702803!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </section>
+            
+              
+                </main>
+                
+
     <footer></footer>
     <script type="text/javascript" src="js/activ.js"></script>
         
